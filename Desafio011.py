@@ -1,0 +1,5 @@
+print(f"{'*'*10}Desafio 011 - Calcula a area de uma parede{'*'*10}")
+altura = float(input("Informe a altura da parede: "))
+largura = float(input("Informe a largura da parede: "))
+tinta = int(input("Informe o rendimento da tinta em m² por litro: "))
+print(f"A area informada mede {altura*largura}m² e a quantidade necessaria de tinta é {(altura*largura)/tinta} litros")

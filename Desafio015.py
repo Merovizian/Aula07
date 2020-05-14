@@ -1,0 +1,6 @@
+print(f"{'*'*10}Desafio 015 - Valor de aluguel de carro{'*'*10}")
+km = int (input("Informe a quantidade de quilômetros percorridos pelo carro: "))
+dias = int (input("Informe a quantidade de dias que ficou alugado: "))
+custo_dia = float(input("Informe o valor da diária: "))
+custo_km = float(input("Informe o valor por Km: "))
+print(f"O preço total a ser pago pelo periodo utilizado é de: {km*custo_km + dias*custo_dia}")
